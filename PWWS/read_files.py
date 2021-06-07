@@ -9,8 +9,8 @@ from .config import config
 import numpy as np
 from sklearn.model_selection import train_test_split
 from keras.utils.np_utils import to_categorical
-#import nltk
-#nltk.download('punkt')
+import nltk
+nltk.download('punkt')
 
 try:
     import cPickle as pickle
